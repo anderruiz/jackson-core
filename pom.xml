@@ -138,4 +138,15 @@ com.fasterxml.jackson.core.*;version=${project.version}
     </plugins>
   </build>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>https://artifacts.hdivsecurity.com/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus</id>
+			<url>https://artifacts.hdivsecurity.com/nexus/content/repositories/releases</url>
+		</repository>
+	</distributionManagement>
+
 </project>
